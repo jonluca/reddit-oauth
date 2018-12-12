@@ -1,6 +1,6 @@
 {
   "name": "reddit-oauth-pass-refresh",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "Reddit API wrapper with both OAuth and username/password authentication, updated to refresh even when username and password are used",
   "main": "lib/index.js",
   "directories": {
