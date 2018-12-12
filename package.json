@@ -1,37 +1,37 @@
 {
-    "name": "reddit-oauth",
-    "version": "1.1.1",
-    "description": "Reddit API wrapper with both OAuth and username/password authentication",
-    "main": "lib/index.js",
-    "directories": {
-        "test": "test"
-    },
-    "scripts": {
-        "test": "./node_modules/.bin/mocha",
-        "docs": "jsdoc -P ./package.json -r -R ./README.md --debug --verbose -d ./docs ./lib"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aiham/reddit-oauth.git"
-    },
-    "keywords": [
-        "reddit",
-        "api",
-        "wrapper",
-        "oauth",
-        "authentication"
-    ],
-    "author": "Aiham Hammami <aiham@aiham.net> (http://www.aiham.net/)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/aiham/reddit-oauth/issues"
-    },
-    "homepage": "https://github.com/aiham/reddit-oauth",
-    "dependencies": {
-        "request": "^2.72.0",
-        "throttled-request": "^0.1.1"
-    },
-    "devDependencies": {
-        "mocha": "^2.3.4"
-    }
+  "name": "reddit-oauth-pass-refresh",
+  "version": "1.2",
+  "description": "Reddit API wrapper with both OAuth and username/password authentication, updated to refresh even when username and password are used",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "docs": "jsdoc -P ./package.json -r -R ./README.md --debug --verbose -d ./docs ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aiham/reddit-oauth.git"
+  },
+  "keywords": [
+    "reddit",
+    "api",
+    "wrapper",
+    "oauth",
+    "authentication"
+  ],
+  "author": "JonLuca DeCaro <hello@jonlu.ca> (https://jonlu.ca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aiham/reddit-oauth/issues"
+  },
+  "homepage": "https://github.com/aiham/reddit-oauth",
+  "dependencies": {
+    "request": "^2.88.0",
+    "throttled-request": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
