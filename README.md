@@ -1,8 +1,10 @@
-# reddit-oauth
+# reddit-oauth-pass-refresh
 
-[![NPM version](https://badge.fury.io/js/reddit-oauth.svg)](http://badge.fury.io/js/reddit-oauth)
+[![NPM version](https://badge.fury.io/js/reddit-oauth-pass-refresh.svg)](http://badge.fury.io/js/reddit-oauth-pass-refresh)
 
-reddit-oauth is a wrapper around the Reddit API providing both OAuth and password authentication.
+reddit-oauth-pass-refresh is a wrapper around the Reddit API providing both OAuth and password authentication.
+
+It adds on to the original [reddit-oauth](https://github.com/aiham/reddit-oauth) by refreshing the access token after expiration even when authenticating with username and password. 
 
 ## Requirements
 
@@ -17,10 +19,12 @@ reddit-oauth is a wrapper around the Reddit API providing both OAuth and passwor
 ## Installation
 
 ```sh
-npm install reddit-oauth
+npm install reddit-oauth-pass-refresh
 ```
 
 ## Documentation
+
+Original documentation: 
 
 http://aiham.github.io/reddit-oauth
 
