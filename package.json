@@ -24,9 +24,9 @@
   "author": "JonLuca DeCaro <hello@jonlu.ca> (https://jonlu.ca)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aiham/reddit-oauth/issues"
+    "url": "https://github.com/jonluca/reddit-oauth/issues"
   },
-  "homepage": "https://github.com/aiham/reddit-oauth",
+  "homepage": "https://github.com/jonluca/reddit-oauth",
   "dependencies": {
     "request": "^2.88.0",
     "throttled-request": "^0.1.1"
